@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  font-family:sans-serif;
+}
+.container{
+  width:50%;
+  margin: auto;
+}
+header{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  border:1px solid gray;
+}
+.wrapper{
+  padding: 1rem;
+  background-color: #8edde7;
+  flex-basis: 50%;
+  text-align: center;
+}
+.wrapper-1{
+  padding: 1rem;
+  background-color:#f59b8b;
+  flex-basis: 50%;
+  text-align: center;
+}
