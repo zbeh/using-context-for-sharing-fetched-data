@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { APIContext} from './APIContextProvider';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 export default function List(props) {
   const{item}=props
   const { users,setUsers } = useContext(APIContext);
@@ -24,5 +24,5 @@ export default function List(props) {
 
 }
 List.propTypes = {
-    item: PropTypes.object
+  item: PropTypes.object.isRequired
 }
